@@ -1,0 +1,168 @@
+:root{
+    ---ColorPrefect: #4DB0BA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+header{
+    height: 75vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.707),  rgba(0, 0, 0, 0.707)),
+    url(../images/group-img1.png);
+    background-size: cover;  
+}
+
+.nav_btn{
+    float: right;
+}
+.head_img img{
+    height: 4vh;
+    width: 8vw;
+}
+header h1{
+    text-align: center;
+    color: #FFF;
+    margin: 22rem auto;
+}
+header span{
+    color: #4DB0BA;
+}
+.innover{
+    height: 40%;
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+.inno_img div{
+    font-size: 1%;
+    width: 65%;
+}
+.inno_img span{
+    color: #4DB0BA;
+}
+.inno_img img{
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+}
+.bleu_div{
+    background-color: #4DB0BA;
+    padding: 3rem 2rem;
+    color: #FFF;
+}
+.comp{
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #4DB0BA;
+}
+.question_ins{
+    height: 40%;
+    padding: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+.question_img div{
+    width: 55%;
+    background-color: #cd853f;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 1rem;
+}
+.question_img img{
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+}
+.trait_et_rond{
+    padding: 3rem 2rem;
+    color: #FFF;
+}
+.carr{
+    color: #FFF;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    background-color: #FFF;
+}
+.carré{
+    border: 5px solid #cd853f;
+    width: 55%;
+    margin: 2rem auto;
+}
+.trait_et_rond h5{
+    text-align: center;
+    color: #000;
+}
+.rond{
+    background-color: #4DB0BA;
+    width: 20%;
+    color: #FFF;
+    height: 30%;
+    border-radius: 50%;
+    margin: 2rem auto;
+    padding: 1.1rem 2rem;
+}
+.rond p{
+    text-align: center;
+    font-size: 2rem;
+}
+.email{
+    padding: 2rem;
+    background-color: #cd853f;
+}
+.email_el{
+    background-color: #cd853f;
+    border: none;
+}
+.email input{
+    height: 4vh;
+    width: 13vw;
+    position: relative;
+}
+.email span{
+    color: #4DB0BA;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #4DB0BA;
+    text-align: center;
+    padding: 2rem;
+}
+.foot{
+    background-color: #4DB0BA;
+    border: none;
+}
+
+
+.blog_card{
+    background-color: #4DB0BA;
+    padding: 1rem;
+    margin: 1rem;
+    width: 48%;
+}
+.blog h1{
+    text-align: center;
+}
+.blog{
+    width: 100%;
+}
+#bleu{
+   color: #FFF;
+   border-radius: 40px;
+}
+#rouge{
+    border-radius: 40px;
+    background-color: #cd853f;
+    border: 1px solid #cd853f;
+}

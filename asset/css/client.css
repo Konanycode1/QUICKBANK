@@ -1,0 +1,91 @@
+:root{
+    --bgBtn: #4DB0BA
+}
+
+.logo{
+    width: 200px;
+    height: 3rem;
+}
+
+.navEle, .main{
+    width: 71.25rem;
+    margin: 0 auto;
+}
+.main{
+    margin-bottom: 2rem;
+}
+.headEle{
+
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../../images/head.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+    height: 8rem;
+}
+.btn-global{
+    width: 10rem;
+    background-color: var(--bgBtn);
+    color: white;
+}
+.btn-global-out{
+    width: 10rem;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+.btn-global:hover{
+    
+    background-color: var(--bgBtn);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-link {
+    margin-right: 2rem;
+}
+.active-link{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: blue;
+}
+.active{
+    border-bottom: 2px solid black;
+}
+.cards{
+    margin-bottom: 3rem;
+    border-bottom: 1px solid black ;
+}
+.titre{
+    margin-top: 2rem;
+}
+.link-offset-2 {
+    margin-right: 2rem;
+}
+.btn-valide{
+background-color: var(--bgBtn);
+color: white;
+width: 200px;
+}
+.btn-valide:hover{
+    background-color: var(--bgBtn);
+    color: white;
+}
+.h-epar-btn{
+    height: 3.5rem;
+}
+.bi-send-fill,.bi-plus,.bi-save2-fill{
+    font-size:3rem;
+}
+.bi-journal-plus{
+    font-size: 5rem;
+    color:chartreuse;
+}
+.btnTr{
+    width: 8rem;
+    height: 10rem;
+}
+
+@media screen and (max-width : 1140px) {
+    .linkEle{
+        margin: 0;
+    }
+}
