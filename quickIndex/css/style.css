@@ -700,17 +700,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative;
     z-index: 2; }
   .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
-    height: 100vh;
-    min-height: 650px; }
+    height: 70vh;   min-height: 600px; }
     @media (max-width: 767.98px) {
       .untree_co-hero, .untree_co-hero > .container > .row, .bg-img, .bg-img > .container > .row {
         min-height: 750px; } }
   .untree_co-hero.inner-page, .untree_co-hero.inner-page > .container > .row, .bg-img.inner-page, .bg-img.inner-page > .container > .row {
-    height: 50vh;
+    height: 70vh;
     min-height: 450px; }
     @media (max-width: 767.98px) {
       .untree_co-hero.inner-page, .untree_co-hero.inner-page > .container > .row, .bg-img.inner-page, .bg-img.inner-page > .container > .row {
-        min-height: 450px; } }
+        min-height: 400px; } }
   .untree_co-hero .caption, .bg-img .caption {
     text-transform: uppercase;
     color: #ffffff;
@@ -743,8 +742,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .untree_co-hero .desc, .bg-img .desc {
         margin: 0 auto; } }
   .untree_co-hero .cta-section, .untree_co-hero .cta-section > .container > .row, .bg-img .cta-section, .bg-img .cta-section > .container > .row {
-    height: 70vh;
-    min-height: 450px; }
+    height: 20vh;
+    min-height: 450px; 
+  }
 
 .untree_co-section {
   padding: 100px 0;
